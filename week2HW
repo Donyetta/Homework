@@ -1,0 +1,13 @@
+ const pizzaPlace="Don's Pizza Place";{
+let numberOfToppings= 20;
+
+// if toppings is greater than 10,
+if(numberOfToppings>10){
+  console.log("A whole lot of pizza.")
+}else (numberOfToppings<10); {
+// if toppings is less than 10
+console.log("Quality, not quantity.")
+}
+
+}
+
