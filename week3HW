@@ -1,0 +1,19 @@
+const pizzaToppings = ["cheese", "spinach", "pepperoni", "sausage"];
+console.log(pizzaPlace = "Don's Pizza Place");
+
+console.log(
+  `Welcome to ${"Don's Pizza Place"}, here we serve ${pizzaToppings} for your pizza.`
+);
+
+function getPizzaOrder(size, crust, ...toppings) {
+  let order = "One large thick crust pizza with ";
+  for (let topping of pizzaToppings) {
+    order + `$(toppings)` + "coming up!";
+  }
+  console.log(order);
+}
+preparePizza("Large")
+
+
+getPizzaOrder = ["Large", "Thin", "Garlic", "Pan"];
+
