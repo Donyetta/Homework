@@ -1,19 +1,24 @@
-.head {
-  background: #0E1F2F
+.one-another {
+  background: #818479
   text-align: center;
+  border: 2px;
+    padding: 25px;
+    margin: 30px;
   }
 
 
   .title {
     color: #F5BC00
     padding: 25px;
-    font-family: Chakra Petch;
+    font-family: "Chakra Petch", sans-serif;
   }
 
 
   body {
-    background: #000;
-    color: #fff;
+    background: #0E1F2F;
+    color: #F5BC00;
     padding: 25px;
-    font-family: Chakra Petch;
+    font-size: 20px;
+    font-family: "Chakra Petch", sans-serif;
   }
+
