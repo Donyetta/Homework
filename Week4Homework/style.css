@@ -9,7 +9,8 @@
 
   .title {
     color: #F5BC00
-    padding: 25px;
+    padding: 30px;
+    font-size: 30px;
     font-family: "Chakra Petch", sans-serif;
   }
 
@@ -17,8 +18,16 @@
   body {
     background: #0E1F2F;
     color: #F5BC00;
-    padding: 25px;
+    text-align: center;
+    padding: 20px;
     font-size: 20px;
     font-family: "Chakra Petch", sans-serif;
   }
 
+
+  header {
+    color: #F5BC00
+    font-size: 35px;
+    font-family: "Chakra Petch", sans-serif;
+
+  }
