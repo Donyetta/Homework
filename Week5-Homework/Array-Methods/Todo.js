@@ -300,3 +300,11 @@
     "completed": true
   }
 ]
+
+let todos = data.filter(item => item.userId === 3);
+console.log(todos);
+
+
+let incomplete = todos.filter(incom => incom.completed === false);
+console.log(incomplete.length);
+

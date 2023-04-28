@@ -299,4 +299,12 @@
     "title": "repellendus qui recusandae incidunt voluptates tenetur qui omnis exercitationem",
     "body": "error suscipit maxime adipisci consequuntur recusandae\nvoluptas eligendi et est et voluptates\nquia distinctio ab amet quaerat molestiae et vitae\nadipisci impedit sequi nesciunt quis consectetur"
   }
+
 ]
+
+//Missing something, won't run, will fix or change method soon
+const fivePosts = user.filter(user => user.userId === 5);
+console.log(fivePosts);
+
+const titleAndBody = users.map(user => ({title: user.title, body: user.body}));
+console.log(titleAndBody);
