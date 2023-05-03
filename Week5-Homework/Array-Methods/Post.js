@@ -1,4 +1,4 @@
-[
+const users= [
   {
     "userId": 1,
     "id": 1,
@@ -303,7 +303,7 @@
 ]
 
 //Missing something, won't run, will fix or change method soon
-const fivePosts = user.filter(user => user.userId === 5);
+const fivePosts = users.filter(user => user.userId === 5);
 console.log(fivePosts);
 
 const titleAndBody = users.map(user => ({title: user.title, body: user.body}));
